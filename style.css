@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital@0;1&family=Roboto:ital,wght@0,300;0,400;0,500;1,400;1,500&display=swap');
+@import url("https://use.typekit.net/uay2whs.css");
+
+body {
+ background-color: #DEE3DC;
+ text-align: center;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 80px;
+  letter-spacing: -4px;
+  color: #2D2D2D;
+  margin: 40px auto;
+}
+
+img {
+  width: 250px;
+  height: 250px;
+  padding-top: 100px;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 48px;
+  font-style: normal;
+  letter-spacing: -2px;
+  color: #2D2D2D;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  font-style: normal;
+  margin: 30px auto;
+  line-height: 15px;
+}
+
+a {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  font-style: normal;
+  margin: 30px auto;
+}
+
+.button-green {
+  background-color: #DEE3DC; /* Green */
+  border: 1px solid white;
+  color: #8f968b;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  letter-spacing: 0px;
+  display: inline-block;
+  border-radius: 6px;
+  transition-duration: 0.4s;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+.button-green:hover {
+  background-color: white;
+  color: #8f968b;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+.card-profile {
+  height: 900px;
+  width: 900px;
+  margin: 40px auto;
+}
+
+.card {
+  text-align: center;
+  background-color: #DEE3DC; /* Green */
+  border: 3px solid white;
+  width: 450px;
+  margin: 100px auto;
+  padding: 120px;
+  transition-duration: 0.4s;
+  border-radius: 6px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+.card a {
+  font-size: 40px;
+  color: white;
+  padding: 0;
+}
+
+.card p {
+  line-height: 15px;
+}
+
+.list-inline {
+  list-style: none;
+  padding: 0;
+}
+
+.list-inline:hover a {
+  color: white;
+}
+
+.list-inline li {
+  display: inline;
+}
+
+.list-inline a {
+  font-size: 40px;
+  margin: 8px;
+  color: #8f968b;
+  transition-duration: 0.4s;
+}
